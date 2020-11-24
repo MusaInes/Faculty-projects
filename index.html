@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internet tehnologije i programiranje</title>
+    <link rel="stylesheet" href="zadatak.css">
+    <script src="zadatak.js"></script>
+</head>
+<body>
+    <div class="logoBox">
+        <img class="logo" src="img/logo.png">
+    </div>
+    <div class="menuBar">
+        <ul class="menuList" style="margin: 0">
+            <li onclick="window.location='html.html'" onmouseover="prikaziElement('htmlDescription')" onmouseout="sakrijElement('htmlDescription')">HTML</li>
+            <li onmouseover="prikaziElement('cssDescription')" onmouseout="sakrijElement('cssDescription')">CSS</li>
+            <li onmouseover="prikaziElement('jsDescription')" onmouseout="sakrijElement('jsDescription')">JAVASCRIPT</li>
+        </ul>
+    </div>
+
+    <div id="htmlDescription" class="description">
+        <b>HTML</b> (енгл. <i>Hyper Text Markup Language</i>, језик за означавање хипертекста) је описни језик специјално намењен опису веб страница.
+        Помоћу њега се једноставно могу одвојити елементи као што су наслови, параграфи, цитати и слично.
+        Поред тога, у HTML стандард су уграђени елементи који детаљније описују сам документ као што су кратак опис документа,
+        кључне речи, подаци о аутору и слично. Ови подаци су општепознати као мета подаци и јасно су одвојени од садржаја документа.
+    </div>
+
+    <div id="cssDescription" class="description">
+        <b>CSS</b> (енгл. <i>Cascading Style Sheets</i>) је језик форматирања помоћу ког се дефинише изглед елемената веб-странице.
+        Првобитно, HTML је служио да дефинише комплетан изглед, структуру и садржај веб-странице, али је од верзије 4.0
+        HTML-а уведен CSS који би дефинисао конкретан изглед, док је HTML остао у функцији дефинисања структуре и садржаја.
+    </div>
+
+    <div id="jsDescription" class="description">
+        <b>Јаваскрипт</b> или <b>Џаваскрипт</b> (енгл. <i>JavaScript</i>) је динамичан, слабо типизиран и интерпретиран програмски језик високог нивоа.
+        Стандардизован је по ЕКМАСкрипт спецификацији језика.
+        Поред HTML-а и CSS-а, Јаваскрипт је једна од три водеће технологије за дефинисање садржаја на Вебу;
+        већина веб-сајтова користи Јаваскрипт а сви модерни веб-читачи га подржавају без потребе за инсталирањем додатака.
+        Комбинован са HTML језиком и CSS-om Јаваскрипт чини DHTML (Dynamic HTML).
+    </div>
+
+    <footer class="footer">
+        &copy; Copyright - 2018 - <a class="itpLink" href="index.html">Интернет технологије и програмирање</a>
+    </footer>
+</body>
+</html>

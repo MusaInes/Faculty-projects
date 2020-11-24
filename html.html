@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+    <link rel="stylesheet" href="zadatak.css">
+    <script src="zadatak.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Име и презиме</th>
+            <th>И-мејл</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Марко</td>
+            <td>Марковић</td>
+            <td>mmarkovic@mail.com</td>
+            <td class="hideRow" onclick="sakrijRed(this)">Сакриј</td>
+        </tr>
+        <tr>
+            <td>Петар</td>
+            <td>Петровић</td>
+            <td>ppetrovic@mail.com</td>
+            <td class="hideRow" onclick="sakrijRed(this)">Сакриј</td>
+        </tr>
+        <tr>
+            <td>Јанко</td>
+            <td>Јанковић</td>
+            <td>jjankovic@mail.com</td>
+            <td class="hideRow" onclick="sakrijRed(this)">Сакриј</td>
+        </tr>
+        <tr>
+            <td>Драган</td>
+            <td>Драганић</td>
+            <td>ddraganic@mail.com</td>
+            <td class="hideRow" onclick="sakrijRed(this)">Сакриј</td>
+        </tr>
+    </table>
+
+    <div class="loginForm">
+        <form action="login.php" method="post" onsubmit="return checkForm();">
+            <label>Корисничко име:</label><br/>
+            <input type="text" placeholder="Username"><br/><br/>
+            <label>Лозинка:</label><br/>
+            <input id="password" type="password" placeholder="Password"><br/><br/>
+            <input type="submit" value="Пријави се">
+        </form>
+    </div>
+
+    <footer class="footer">
+        &copy; Copyright - 2018 - <a class="itpLink" href="index.html">Интернет технологије и програмирање</a>
+    </footer>
+</body>
+</html>

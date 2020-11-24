@@ -1,0 +1,104 @@
+*{
+    font-family: Arial;
+}
+
+.logoBox{
+    text-align: center;
+}
+
+.logo{
+    height: 40vh;
+    horiz-align: center;
+}
+
+.menuBar{
+    /*border: 1px solid red;*/
+    width: 100%;
+    text-align: center;
+}
+
+.menuList>li{
+    display: inline-block;
+    background-color: blue;
+    line-height: 30px;
+    width: 30%;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    letter-spacing: 3px;
+}
+
+.menuList>li:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.description{
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    width: 70%;
+    text-align: justify;
+    display: none;
+}
+
+.footer{
+    position: absolute;
+    width: 99%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    font-style: italic;
+    bottom: 0;
+    height: 30px;
+}
+
+.itpLink{
+    text-decoration: none;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table{
+    border: 1px solid gray;
+}
+
+td{
+    width: 20%;
+    height: 25px;
+    text-align: center;
+}
+
+tr{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th{
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.hideRow:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.loginForm{
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+}
